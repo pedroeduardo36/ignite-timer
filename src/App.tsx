@@ -1,9 +1,13 @@
+import { Button } from './components/Button'
 
 export function App() {
 
   return (
     <>
-      <p>Apptsx</p>
+      <Button variant='primary'/>
+      <Button variant='secondary'/>
+      <Button variant='danger'/>
+      <Button variant='success'/>
     </>
   )
 }
